@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    padding: 2px 2px;
+}
+.title{
+    margin-top: 19px;
+    color: whitesmoke;
+    font-size: large;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-top: 17px;
+}
+ul li a{
+    color: white;
+    font-size: large;
+    margin-right: 30px;
+    cursor: pointer;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a.active{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background: linear-gradient(#009688 0%, #009688 0%, #d9dbd5 67%, #d9dbd5 100%);
+}
+.sec{
+    
+    color: white;
+    font-size: 50px;
+}
+.pera{
+    color: white;
+    font-size: 30px;
+}
+.container{
+    position: relative;
+    height: calc(100vh - 40px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.06),0 2px 5px 0 rgba(0,0,0,0.06);
+    display: flex;
+}
+.container .leftSide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    flex: 30%;
+}
+.container .rightSide{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    position: relative;
+    flex: 70%;
+}
+.containerRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm li{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.loginForm li input{
+    padding: 2px;
+}
+.loginForm #submit{
+    padding: 4px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(150, 233, 233);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.loginForm #submit:hover{
+    background-color: white;
+    color: rgb(6, 156, 156);
+}

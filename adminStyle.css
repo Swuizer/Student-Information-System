@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    padding: 2px 2px;
+}
+.title{
+    margin-top: 19px;
+    color: whitesmoke;
+    font-size: large;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-top: 17px;
+}
+ul li a{
+    color: white;
+    font-size: large;
+    margin-right: 30px;
+    /* text-decoration: none; */
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+ul li a{
+    cursor: pointer; 
+    text-decoration: none;
+}
+ul li a.active{
+    text-decoration: underline;
+}
+/* Search Section */
+
+ul li .bxt{
+    color: white;
+    font-size: large;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+ul li #searchTxt{
+    color: black;
+    border: 2px solid white;
+}
+
+ul li .btn-outline-success{
+    background: rgb(150, 233, 233);
+    border: 2px solid white;
+}
+ul li .btn-outline-success:hover{
+    background-color: white;
+    color: rgb(6, 156, 156);
+}
+ul li .btn-outline-success{
+    cursor: pointer;
+}
+
+/* Search Section */
+section{
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(#009688 0%, #009688 0%, #d9dbd5 97%, #d9dbd5 100%);
+}
+.secAdmin{
+    
+    color: white;
+    font-size: 35px;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+}
+
+/* Insert Section */
+.insertData{
+    color: white;
+    list-style: none;
+}
+/* End */
+.pera{
+    color: white;
+    font-size: 30px;
+}
+
+table .tableData{
+    color: white;
+    padding: 8px;
+    font-size: 19px;
+    text-align: left;
+}
+table #heading{
+    padding-right: 90px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btn li{
+    list-style: none;
+    padding: 2px 46px;
+}
+.btn li a{
+    text-decoration: none;
+    padding: 4px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(150, 233, 233);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.btn li a:hover{
+    background-color: white;
+    color: rgb(6, 156, 156);
+}
